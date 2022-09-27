@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3{font-family: 'Ms Madi', cursive;
+    text-align: center;color: rgb(255, 253, 251);text-shadow: 0.1em 0.1em #333;}
+    h1{font-size: 55px;}
+    h2{font-size: 45px;}
+    h3{font-size: 40px;}
+
+
+body{background-image: url(coffee-3177691_1280.png);
+width: 900px;
+height: 900px;
+background-size: 200px 200px;
+background-color: aquamarine;
+}
+main{
+    width: 595px;
+    height: 1448px;
+    margin: 75px auto 40px;
+}
+
+.tipos-de-cafe{
+    width: 10px;
+height: 10px;
+}
+
+
+.seccion-izquierda{
+    height: 800px;
+}
+.seccion-derecha{
+    height: 400px;
+}
+.boton{ text-align: center;}
+ 
+
+    .boton a{
+        width: 200px;
+        height: 86px;
+        border-radius: 50px;
+        font-size: 25px;
+        display: inline-block;
+        background-color: rgb(11, 189, 221);
+        text-decoration: none;
+        color: hsl(29, 87%, 21%);
+        margin-bottom: 70px;
+        padding-top: 30px;
+    
+    }
+    
+    .boton a:hover{
+        background-color: hsl(220, 50%, 40%);
+        color: rgb(161, 36, 91);
+    }
+
+ 
+        
+        main{
+            width: 1284px;
+            height: 700px;
+            margin: 60px auto 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    
+
+
+.botones{margin-top: 150px;}
